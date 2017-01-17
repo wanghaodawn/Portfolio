@@ -14,7 +14,7 @@ http.createServer(function (request, response) {
         filename = "html" + pathname;
     } else if (pathname.endsWith(".css")) {
         filename = pathname.substring(1);
-    } else if (pathname.endsWith(".png") || pathname.endsWith(".jpg") || pathname.endsWith(".gif") || pathname.endsWith(".ico")) {
+    } else if (pathname.endsWith(".png") || pathname.endsWith(".jpg") || pathname.endsWith(".jpeg") || pathname.endsWith(".gif") || pathname.endsWith(".ico")) {
         filename = pathname.substring(1);
     }
     
@@ -33,6 +33,8 @@ http.createServer(function (request, response) {
                 response.writeHead(200, {'Content-Type': 'image/png'}); 
             } else if (filename.endsWith(".jpg")) {
                 response.writeHead(200, {'Content-Type': 'image/jpg'}); 
+            } else if (filename.endsWith(".jpeg")) {
+                response.writeHead(200, {'Content-Type': 'image/jpeg'}); 
             } else if (filename.endsWith(".gif")) {
                 response.writeHead(200, {'Content-Type': 'image/gif'}); 
             } else if (filename.endsWith(".ico")) {
