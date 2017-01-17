@@ -204,12 +204,30 @@ span.school-info {
 
 
 /* Photography */
-img.photo {
+img.photo-43 {
     width: 370px;
     height: 260px;
     margin-left: 4px;
     margin-right: 4px;
     margin-top: 2px;
+    margin-bottom: 2px;
+    box-shadow: 1px 1px 1px 1px #CCCCCC;
+}
+img.photo-169 {
+    width: 560px;
+    height: 260px;
+    margin-left: 5px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    box-shadow: 1px 1px 1px 1px #CCCCCC;
+}
+img.photo-34 {
+    width: 274px;
+    height: 390px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
     margin-bottom: 2px;
     box-shadow: 1px 1px 1px 1px #CCCCCC;
 }
