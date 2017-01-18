@@ -3,6 +3,7 @@ var fs = require('fs');
 var url = require('url');
 var util = require('util');
 
+// Have to setup the port like this, or it will not be successfully deployed in Heroku
 var port = process.env.PORT || 3000;
 
 http.createServer(function (request, response) {
@@ -64,4 +65,4 @@ http.createServer(function (request, response) {
 }).listen(port);
 
 // Console will print the message
-console.log('Server running at http://127.0.0.1:8081/');
+console.log('Server running at http://127.0.0.1:3000/');
