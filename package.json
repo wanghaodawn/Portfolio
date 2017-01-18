@@ -4,16 +4,24 @@
   "description": "portfolio on Jan 17 2017",
   "main": "web.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wanghaodawn/Portfolio.git"
+  },
+  "engines": {
+    "node": "5.9.1"
   },
   "author": "Hao Wang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wanghaodawn/Portfolio/issues"
   },
-  "homepage": "https://github.com/wanghaodawn/Portfolio#readme"
+  "homepage": "https://github.com/wanghaodawn/Portfolio#readme",
+  "dependencies": {
+    "cool-ascii-faces": "1.3.4"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
