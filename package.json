@@ -19,9 +19,7 @@
     "url": "https://github.com/wanghaodawn/Portfolio/issues"
   },
   "homepage": "https://github.com/wanghaodawn/Portfolio#readme",
-  "dependencies": {
-    "cool-ascii-faces": "1.3.4"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "keywords": [
     "node",
