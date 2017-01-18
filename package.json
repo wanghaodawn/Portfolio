@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wanghaodawn/Portfolio.git"
+    "url": "https://github.com/wanghaodawn/Portfolio"
   },
   "engines": {
-    "node": "5.9.1"
+    "node": "6.9.2"
   },
   "author": "Hao Wang",
   "license": "ISC",
